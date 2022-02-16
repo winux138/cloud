@@ -6,6 +6,6 @@ services:
         ports:
             - "80:80"
         volumes:
-            - ~/.docker/www:/var/www/html
-            - ~/config/php.ini:/etc/php5/apache2/conf.d/90-custom.ini
+            - /home/debian/.docker/www:/var/www/html
+            - /home/debian/config/php.ini:/etc/php5/apache2/conf.d/90-custom.ini
 
